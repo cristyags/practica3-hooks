@@ -341,4 +341,61 @@ body {
 
 
 
+@media (max-width: 900px) {
+  .main {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .nav-bar {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    height: auto;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .search {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  .num-results {
+    justify-self: start;
+  }
+
+  .box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  body {
+    padding: 1.2rem;
+  }
+
+  .main {
+    margin-top: 1.2rem;
+  }
+
+  .nav-bar {
+    border-radius: 1.2rem;
+  }
+
+  .search {
+    font-size: 1.6rem;
+    padding: 1.2rem 1.4rem;
+  }
+
+  .list {
+    max-height: none;
+  }
+
+  .details {
+    max-height: none;
+  }
+}
 
